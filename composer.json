@@ -1,0 +1,13 @@
+{
+    "name": "root/todo_mvc",
+    "require": {
+        "silex/silex": "~1.2",
+        "leongkui/silex-php-redis": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Prisyazhnyuk Alexander",
+            "email": "alexander@nethouse.ru"
+        }
+    ]
+}
