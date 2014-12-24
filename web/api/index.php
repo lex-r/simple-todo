@@ -8,7 +8,7 @@ use \Symfony\Component\HttpFoundation\Request;
 $app = new Silex\Application();
 
 $app->register(new SilexPhpRedis\PhpRedisProvider(), array(
-    'redis.host' => '127.0.0.1',
+    'redis.host' => 'redis',
     'redis.port' => 6379,
     'redis.timeout' => 1,
     'redis.persistent' => true,
